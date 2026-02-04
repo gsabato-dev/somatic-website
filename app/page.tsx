@@ -9,17 +9,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#C97857] via-[#C97857] to-[#B8633E]">
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
-        <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto pl-4 pr-0 py-16 md:py-24 relative z-10">
+          <div className="grid lg:grid-cols-12 gap-8 items-center">
             {/* Text Content */}
-            <div className="text-white z-10">
+            <div className="text-white z-10 lg:col-span-5 pr-4">
               <h1 className="font-serif text-[clamp(2.5rem,5vw,4rem)] leading-tight mb-6 text-balance drop-shadow-lg">
-                Reclaim Your Sexual Confidence
+                Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                Feeling disconnected from your desire? Trapped by shame? Afraid to ask for what you want? You don't have
-                to stay stuck. Through embodied, trauma‑informed coaching, you can reclaim your pleasure, confidence,
-                and authentic freedom.
+                For women stuck in their head: disconnected from desire, sensation, and their body. I've walked the path from religious conditioning and intellectual spaces back to embodied aliveness. I'll guide you there too.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
@@ -29,24 +27,14 @@ export default function Home() {
                 >
                   <a href="#booking">Book Free Discovery Call</a>
                 </Button>
-                <Button
-                  variant="ghost"
-                  className="text-white hover:text-white/90 hover:bg-white/10 font-medium"
-                  asChild
-                >
-                  <a href="#journey" className="flex items-center gap-2">
-                    How it works
-                    <ChevronRight className="w-4 h-4" />
-                  </a>
-                </Button>
               </div>
             </div>
 
             {/* Hero Image - Floor Pose */}
-            <div className="relative">
+            <div className="relative lg:col-span-7">
               <div className="absolute inset-0 bg-gradient-to-br from-[#7A9B7A]/20 to-transparent rounded-2xl blur-2xl transform scale-105"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
-                <img src="/images/image-20-2817-29.png" alt="Coach in welcoming pose" className="w-full h-auto" />
+                <img src="/images/woman_in_the_grass.jpg" alt="Coach in welcoming pose" className="w-full h-auto" />
               </div>
             </div>
           </div>
@@ -61,35 +49,42 @@ export default function Home() {
             <div className="relative order-2 lg:order-1">
               <div className="absolute inset-0 bg-gradient-to-br from-[#C97857]/10 to-[#7A9B7A]/10 rounded-2xl blur-3xl transform scale-95"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
-                <img src="/images/image-20-2812-29.png" alt="Certified Somatica Coach" className="w-full h-auto" />
+                <img src="/images/about.png" alt="Certified Somatica Coach" className="w-full h-auto" />
               </div>
             </div>
 
             {/* About Text */}
             <div className="order-1 lg:order-2">
               <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">About</p>
-              <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">Certified Somatica Coach</h2>
+              <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
-                  I'm <strong>[YOUR NAME]</strong>, a Certified Somatica sex and relationship coach specializing in
-                  helping individuals reclaim authentic sexual confidence and pleasure.
+                  I'm <strong>Gabriele</strong>, a Trained Somatica Coach and tango dancer working with women who are ready to reclaim their sensual aliveness.
                 </p>
-                <p>The people I work with are often:</p>
+                <p>
+                  I grew up in religious spaces where pleasure and desire weren't safe to explore. Later, I spent years in academia: brilliant, rigorous work that kept me entirely in my head. I was good at thinking, analyzing, performing. But I was completely disconnected from my body, my sensations, my wants.
+                </p>
+                <p>
+                  Studying Tango I started to trust my body, to be present in sensation and connection, to feel instead of think: it was the doorway back to myself. That embodied practice eventually led me to Somatica, where I discovered how to guide others through the same journey: from conditioning and disconnection back to aliveness.
+                </p>
+                <p>Now, based in Berlin, I work with women who recognize this pattern in their own lives:</p>
                 <ul className="space-y-2 ml-5 list-disc">
-                  <li>Disconnected from their own desire</li>
-                  <li>Trapped by shame or fear</li>
-                  <li>Unsure how to ask for what they want</li>
-                  <li>Longing to feel alive and at home in their body again</li>
+                  <li>Deconstructing religious conditioning around pleasure, desire, and the body</li>
+                  <li>Moving from being "in your head" to feeling fully alive in your body</li>
+                  <li>Learning to trust sensation without guilt, fear, or overthinking</li>
+                  <li>Building confidence to name what you want and express it clearly</li>
                 </ul>
                 <p>
-                  Through embodied, trauma‑informed practices, I help you move from disconnection and shame to genuine
-                  freedom, pleasure, and confidence. This work is deeply human—rooted in presence, consent, and
-                  curiosity.
+                  This work is grounded, curious, and deeply human. It's not about rejecting where you came from or what you've learned: it's about coming home to what was always yours.
                 </p>
                 <div className="pt-4 space-y-2">
                   <div className="flex items-center gap-2 text-[#2D3748]">
                     <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Certified Somatica Coach</span>
+                    <span className="font-medium">Trained Somatica Coach</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-[#2D3748]">
+                    <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                    <span className="font-medium">Tango dancer & teacher</span>
                   </div>
                   <div className="flex items-center gap-2 text-[#2D3748]">
                     <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
@@ -97,7 +92,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2 text-[#2D3748]">
                     <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Working online with clients worldwide</span>
+                    <span className="font-medium">Working onsite in Berlin and online with clients worldwide</span>
                   </div>
                 </div>
               </div>
@@ -119,207 +114,103 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
-              <Heart className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I don't know what I want sexually</h3>
-              <p className="text-[#4A5568] leading-relaxed">It's hard to feel desire, let alone express it.</p>
+              <Shield className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I was taught my body and desires were shameful</h3>
+              <p className="text-[#4A5568] leading-relaxed">Old religious messages still control how I feel about pleasure.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Brain className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I feel disconnected from my body</h3>
-              <p className="text-[#4A5568] leading-relaxed">During intimacy I'm in my head, not in my sensations.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm stuck in my head during intimacy</h3>
+              <p className="text-[#4A5568] leading-relaxed">I analyze everything instead of feeling what's happening in my body.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
-              <Shield className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm afraid to ask for what I want</h3>
-              <p className="text-[#4A5568] leading-relaxed">I worry I'll be rejected, judged, or too much.</p>
+              <Heart className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I don't know how to enjoy pleasure without guilt</h3>
+              <p className="text-[#4A5568] leading-relaxed">Even when I want something, shame shows up and shuts me down.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Compass className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">Shame stops me from enjoying pleasure</h3>
-              <p className="text-[#4A5568] leading-relaxed">Old messages and conditioning still run the show.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I've intellectualized everything, including desire</h3>
+              <p className="text-[#4A5568] leading-relaxed">I can think about what I want, but I can't actually feel it.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Users className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I feel numb or disinterested in sex</h3>
-              <p className="text-[#4A5568] leading-relaxed">
-                Something inside feels switched off, and I miss feeling alive.
-              </p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I feel disconnected from my sensual self</h3>
+              <p className="text-[#4A5568] leading-relaxed">Years of conditioning left me numb to my own body's wisdom.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Sparkles className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to feel confident and alive again</h3>
-              <p className="text-[#4A5568] leading-relaxed">I know there's more possible for me than this.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to stop performing and start feeling alive</h3>
+              <p className="text-[#4A5568] leading-relaxed">I'm ready to reclaim what I was taught to suppress.</p>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* How It Works / Journey Section */}
-      <section
-        id="journey"
-        className="py-20 relative bg-white overflow-hidden"
-        style={{
-          backgroundImage: `url('/images/image-20-2813-29.png')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#2D3748]/85 via-[#2D3748]/80 to-[#2D3748]/85"></div>
+{/* How We Work Together Section */}
+<section
+  id="collaboration"
+  className="py-20 bg-gradient-to-br from-[#F9F7F4] to-[#FDFCFB]"
+>
+  <div className="container mx-auto px-4">
+    <div className="max-w-3xl mx-auto text-center mb-12">
+      <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">
+        Collaboration
+      </p>
+      <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">
+        How We Work Together
+      </h2>
+      <p className="text-[#4A5568] text-lg">
+        This work is personal, not transactional. We'll find what fits you best.
+      </p>
+    </div>
 
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">Process</p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-white">Your Journey With Me</h2>
-          </div>
+    <div className="grid lg:grid-cols-2 gap-10 max-w-6xl mx-auto justify-center items-stretch">
+      {/* Card 1 */}
+      <Card className="p-10 bg-gradient-to-br from-white via-white to-[#F9F7F4]/50 border-[#E8DCC8] hover:shadow-2xl transition-shadow shadow-lg">
+        <h3 className="text-2xl font-semibold text-[#2D3748] mb-4">
+          Free 30-Minute Discovery Call
+        </h3>
+        <p className="text-[#4A5568] leading-relaxed mb-6">
+          We'll explore what's happening for you, what you're longing for, and
+          whether we're a good fit. You can ask me anything about the work. No
+          pressure, just an honest conversation.
+        </p>
+        
+        <Button
+          className="w-full bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
+          asChild
+        >
+          <a
+            href="https://cal.com/gabriele-somatic-coach/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Schedule Your Call
+          </a>
+        </Button>        
+      </Card>
 
-          <div className="max-w-4xl mx-auto">
-            {/* Journey Steps */}
-            <div className="space-y-12">
-              {/* Step 1 */}
-              <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#C97857] to-[#B8633E] text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                    1
-                  </div>
-                </div>
-                <div className="bg-white/95 backdrop-blur-sm p-6 rounded-lg shadow-lg flex-1">
-                  <h3 className="text-xl font-semibold text-[#2D3748] mb-2">Free Discovery Call</h3>
-                  <p className="text-[#4A5568] leading-relaxed">
-                    A 30‑minute call where we explore what's happening for you, what you'd like to change, and whether
-                    we're a good fit. No pressure, no judgment.
-                  </p>
-                </div>
-              </div>
-
-              {/* Connector */}
-              <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 flex justify-center">
-                  <div className="w-0.5 h-12 bg-gradient-to-b from-[#C97857] to-[#E8DCC8]"></div>
-                </div>
-              </div>
-
-              {/* Step 2 */}
-              <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#C97857] to-[#B8633E] text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                    2
-                  </div>
-                </div>
-                <div className="bg-white/95 backdrop-blur-sm p-6 rounded-lg shadow-lg flex-1">
-                  <h3 className="text-xl font-semibold text-[#2D3748] mb-2">Experience Somatic Coaching</h3>
-                  <p className="text-[#4A5568] leading-relaxed">
-                    In one or two sessions, you get a felt sense of the work—slowing down, noticing your body, and
-                    beginning to shift patterns around shame, fear, or numbness.
-                  </p>
-                </div>
-              </div>
-
-              {/* Connector */}
-              <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 flex justify-center">
-                  <div className="w-0.5 h-12 bg-gradient-to-b from-[#C97857] to-[#E8DCC8]"></div>
-                </div>
-              </div>
-
-              {/* Step 3 */}
-              <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#C97857] to-[#B8633E] text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                    3
-                  </div>
-                </div>
-                <div className="bg-white/95 backdrop-blur-sm p-6 rounded-lg shadow-lg flex-1">
-                  <h3 className="text-xl font-semibold text-[#2D3748] mb-2">Deep Transformation Work</h3>
-                  <p className="text-[#4A5568] leading-relaxed">
-                    We create a coaching arc tailored to you. Together we process old stories, experiment with new ways
-                    of being, and build embodied confidence in your desire.
-                  </p>
-                </div>
-              </div>
-
-              {/* Connector */}
-              <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 flex justify-center">
-                  <div className="w-0.5 h-12 bg-gradient-to-b from-[#C97857] to-[#E8DCC8]"></div>
-                </div>
-              </div>
-
-              {/* Step 4 */}
-              <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#C97857] to-[#B8633E] text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                    4
-                  </div>
-                </div>
-                <div className="bg-white/95 backdrop-blur-sm p-6 rounded-lg shadow-lg flex-1">
-                  <h3 className="text-xl font-semibold text-[#2D3748] mb-2">Integration & Support</h3>
-                  <p className="text-[#4A5568] leading-relaxed">
-                    You bring this into real life—dating, relationships, solo exploration. We can continue with ongoing
-                    support at the pace that fits you.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How We Work Together Section */}
-      <section className="py-20 bg-gradient-to-br from-[#F9F7F4] to-[#FDFCFB]">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">Collaboration</p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">How We Work Together</h2>
-            <p className="text-[#4A5568] text-lg">
-              Investment varies based on your location and what you need. We'll decide together in a free discovery
-              call.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 bg-gradient-to-br from-white via-white to-[#F9F7F4]/50 border-[#E8DCC8] hover:shadow-2xl transition-shadow shadow-lg">
-              <h3 className="text-2xl font-semibold text-[#2D3748] mb-4">Free Discovery Call</h3>
-              <p className="text-[#4A5568] leading-relaxed mb-6">
-                Thirty minutes to talk openly about what's going on, what you're longing for, and what kind of support
-                would feel right. We'll also talk about how I work and you can ask anything—there's no obligation to
-                continue.
-              </p>
-              <Button
-                className="w-full bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
-                asChild
-              >
-                <a href="#booking">Schedule Discovery Call</a>
-              </Button>
-            </Card>
-
-            <Card className="p-8 bg-gradient-to-br from-white via-white to-[#F9F7F4]/50 border-[#E8DCC8] hover:shadow-2xl transition-shadow shadow-lg">
-              <h3 className="text-2xl font-semibold text-[#2D3748] mb-4">Personalized Coaching Packages</h3>
-              <p className="text-[#4A5568] leading-relaxed mb-6">
-                After the call, we co‑create a plan that fits you. That might look like a few intro sessions, a deeper
-                multi‑session journey, or ongoing monthly support.
-                <br />
-                <br />
-                Because clients work with me from different parts of the world (EU, US, Asia, LATAM), investment is
-                tailored to your location and situation. We'll talk transparently about this in the discovery call so it
-                feels fair and doable.
-              </p>
-              <Button
-                className="w-full bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
-                asChild
-              >
-                <a href="#booking">Talk About Options</a>
-              </Button>
-            </Card>
-          </div>
-        </div>
-      </section>
+      {/* Card 2 */}
+      <Card className="p-10 bg-gradient-to-br from-white via-white to-[#F9F7F4]/50 border-[#E8DCC8] hover:shadow-2xl transition-shadow shadow-lg">
+        <h3 className="text-2xl font-semibold text-[#2D3748] mb-4">
+          Personalised packages
+        </h3>
+        <p className="text-[#4A5568] leading-relaxed mb-6">
+          We'll co-create an approach that fits you: single sessions, 5 or
+          10-session journeys. I offer sliding scale pricing
+          based on your location and situation. We'll figure it out together in
+          the discovery call.
+        </p>
+      </Card>
+    </div>
+  </div>
+</section>
 
       {/* Testimonials Section */}
       <section className="py-20 bg-gradient-to-b from-white to-[#F9F7F4]/30">
@@ -377,21 +268,22 @@ export default function Home() {
             </h2>
             <p className="text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
               One free discovery call can change the way you relate to your body, desire, and intimacy. No obligation,
-              no judgment—just an honest conversation.
+              no judgment: just an honest conversation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 size="lg"
                 className="bg-white text-[#C97857] hover:bg-[#F9F7F4] hover:shadow-2xl transition-all text-lg px-8 shadow-xl"
               >
-                Book Free Discovery Call
+                <a
+                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book Free Discovery Call
+                </a>
               </Button>
-              <Link
-                href="mailto:hello@yourname.de"
-                className="text-white hover:text-white/80 underline underline-offset-4"
-              >
-                Prefer to write first? Email me.
-              </Link>
+              
             </div>
           </div>
         </div>
@@ -402,9 +294,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-semibold text-white mb-2">[YOUR NAME]</h3>
-              <p className="text-sm">Certified Somatica Coach</p>
-              <p className="text-sm">Working online with clients worldwide</p>
+              <h3 className="font-semibold text-white mb-2">Gabriele</h3>
+              <p className="text-sm">Trained Somatica@ Coach</p>
+              <p className="text-sm">Working on site in Berlin and online with clients worldwide</p>
             </div>
 
             <div>
@@ -421,15 +313,11 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#journey" className="hover:text-white transition-colors">
-                    How It Works
+                  <a href="#collaboration" className="hover:text-white transition-colors">
+                    How We Work Together
                   </a>
                 </li>
-                <li>
-                  <a href="#booking" className="hover:text-white transition-colors">
-                    Book a Call
-                  </a>
-                </li>
+                
               </ul>
             </div>
 
@@ -437,13 +325,8 @@ export default function Home() {
               <h4 className="font-semibold text-white mb-3">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="mailto:hello@yourname.de" className="hover:text-white transition-colors">
-                    hello@yourname.de
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    LinkedIn
+                  <a href="mailto:gabriele.somatic.coach@gmail.com" className="hover:text-white transition-colors">
+                    gabriele.somatic.coach@gmail.com
                   </a>
                 </li>
                 <li>
@@ -457,7 +340,7 @@ export default function Home() {
 
           <div className="border-t border-[#4A5568] pt-6 text-sm text-center">
             <p>
-              © 2025 [Your Name]. All rights reserved. |{" "}
+              © 2025 Gabriele. All rights reserved. |{" "}
               <a href="#" className="hover:text-white transition-colors">
                 Privacy
               </a>{" "}
