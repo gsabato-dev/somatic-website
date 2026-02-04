@@ -1,11 +1,97 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
-import { ChevronRight, CheckCircle2, Heart, Brain, Shield, Compass, Sparkles, Users } from "lucide-react"
+import { ChevronRight, CheckCircle2, Heart, Brain, Shield, Compass, Sparkles, Users, Menu, X } from "lucide-react"
+import { useState } from "react"
 
 export default function Home() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <main className="min-h-screen">
+      {/* Header */}
+      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[#E8DCC8] shadow-sm">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-16 md:h-20">
+            {/* Logo/Brand */}
+            <a href="#" className="font-serif text-xl md:text-2xl text-[#2D3748] hover:text-[#C97857] transition-colors">
+              Gabriele Somatic Coach
+            </a>
+
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center gap-8">
+              <a href="#about" className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium">
+                About
+              </a>
+              <a href="#collaboration" className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium">
+                How We Work
+              </a>
+              <Button
+                className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
+                asChild
+              >
+                <a
+                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Schedule Free Consultation
+                </a>
+              </Button>
+            </nav>
+
+            {/* Mobile Hamburger Menu Button */}
+            <button
+              className="md:hidden p-2 text-[#2D3748] hover:text-[#C97857] transition-colors"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-[#E8DCC8] bg-white">
+            <nav className="container mx-auto px-4 py-4 flex flex-col gap-4">
+              <a
+                href="#about"
+                className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About
+              </a>
+              <a
+                href="#collaboration"
+                className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                How We Work
+              </a>
+              <Button
+                className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md w-full"
+                asChild
+              >
+                <a
+                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Schedule Free Consultation
+                </a>
+              </Button>
+            </nav>
+          </div>
+        )}
+      </header>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#C97857] via-[#C97857] to-[#B8633E]">
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
