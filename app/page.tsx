@@ -378,8 +378,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h3 className="font-semibold text-white mb-2">Gabriele</h3>
-              <p className="text-sm">Trained Somatica® Coach</p>
+              <h3 className="font-semibold text-white mb-2">Gabriele Somatic Coach</h3>
               <p className="text-sm">Working on site in Berlin and online with clients worldwide</p>
             </div>
 
