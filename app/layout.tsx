@@ -17,7 +17,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Somatica Sex Coach for Individuals – Reclaim Your Sexual Confidence",
+  title: "Gabriele Somatic Coach",
   description:
     "Somatic, trauma‑informed sex coaching for individuals who feel disconnected from desire or held back by shame. Free discovery call, online from Berlin.",
   generator: "v0.app",

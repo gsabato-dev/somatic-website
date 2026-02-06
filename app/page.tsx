@@ -13,9 +13,9 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[#E8DCC8] shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16 md:h-20">
+          <div className="flex items-center justify-between h-12 md:h-16">
             {/* Logo/Brand */}
-            <a href="#" className="font-serif text-xl md:text-2xl text-[#2D3748] hover:text-[#C97857] transition-colors">
+            <a href="#" className="font-serif text-lg md:text-xl text-[#2D3748] hover:text-[#C97857] transition-colors">
               Gabriele Somatic Coach
             </a>
 
@@ -25,7 +25,7 @@ export default function Home() {
                 About
               </a>
               <a href="#collaboration" className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium">
-                How We Work
+                Your Coaching Journey
               </a>
               <Button
                 className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
@@ -36,7 +36,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Schedule Free Consultation
+                  Book Free Discovery Call
                 </a>
               </Button>
             </nav>
@@ -72,7 +72,7 @@ export default function Home() {
                 className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                How We Work
+                Your Coaching Journey
               </a>
               <Button
                 className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md w-full"
@@ -84,7 +84,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Schedule Free Consultation
+                  Book Free Discovery Call
                 </a>
               </Button>
             </nav>
@@ -103,7 +103,7 @@ export default function Home() {
                 Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                For women stuck in their head: disconnected from desire, sensation, and their body. I've walked the path from religious conditioning and intellectual spaces back to embodied aliveness. I'll guide you there too.
+                I'm Gabriele, a trained somatic coach. I work with women who learned to be 'good' in religious spaces, at work, or in relationships, and are ready to reconnect to their bodies, desire, and pleasure. I've walked this path. I'll guide you through it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
@@ -111,7 +111,13 @@ export default function Home() {
                   className="bg-[#F9F7F4] text-[#C97857] hover:bg-white hover:shadow-xl transition-all rounded-lg font-medium text-base shadow-lg"
                   asChild
                 >
-                  <a href="#booking">Book Free Discovery Call</a>
+                  <a
+                    href="https://cal.com/gabriele-somatic-coach/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book Free Discovery Call
+                  </a>
                 </Button>
               </div>
             </div>
@@ -135,7 +141,7 @@ export default function Home() {
             <div className="relative order-2 lg:order-1">
               <div className="absolute inset-0 bg-gradient-to-br from-[#C97857]/10 to-[#7A9B7A]/10 rounded-2xl blur-3xl transform scale-95"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
-                <img src="/images/about.png" alt="Certified Somatica Coach" className="w-full h-auto" />
+                <img src="/images/about.png" alt="Trained Somatica® Coach" className="w-full h-auto" />
               </div>
             </div>
 
@@ -145,28 +151,34 @@ export default function Home() {
               <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
-                  I'm <strong>Gabriele</strong>, a Trained Somatica Coach and tango dancer working with women who are ready to reclaim their sensual aliveness.
+                  I'm <strong>Gabriele</strong>, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-[#C97857] hover:underline transition-colors">Somatica®</a> Coach working with women who are ready to reclaim their sensual aliveness.
                 </p>
                 <p>
-                  I grew up in religious spaces where pleasure and desire weren't safe to explore. Later, I spent years in academia: brilliant, rigorous work that kept me entirely in my head. I was good at thinking, analyzing, performing. But I was completely disconnected from my body, my sensations, my wants.
+                  I grew up in religious spaces where pleasure wasn't safe to explore. Later, I spent years in academia: brilliant work that kept me entirely in my head. I was good at thinking, analyzing, performing, but disconnected from my body and what I actually wanted.
                 </p>
                 <p>
-                  Studying Tango I started to trust my body, to be present in sensation and connection, to feel instead of think: it was the doorway back to myself. That embodied practice eventually led me to Somatica, where I discovered how to guide others through the same journey: from conditioning and disconnection back to aliveness.
+                  I was teaching and dancing tango during those years, learning how to connect with others through movement. But even that wasn't enough, I realized I needed deeper tools to actually transform how I related to my body and desire and to support others.
                 </p>
-                <p>Now, based in Berlin, I work with women who recognize this pattern in their own lives:</p>
+                <p>
+                  Moving to Berlin in my early 30s opened something. I started exploring, but kept falling into the same old patterns: proving myself, taking care of others, ignoring my own needs. After a burnout, I finally stopped and asked what I actually needed to change.
+                </p>
+                <p>
+                  That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
+                </p>
+                <p>Based in Berlin, I work with women who want to:</p>
                 <ul className="space-y-2 ml-5 list-disc">
-                  <li>Deconstructing religious conditioning around pleasure, desire, and the body</li>
-                  <li>Moving from being "in your head" to feeling fully alive in your body</li>
-                  <li>Learning to trust sensation without guilt, fear, or overthinking</li>
-                  <li>Building confidence to name what you want and express it clearly</li>
+                  <li>Enjoy pleasure and desire without guilt or shame</li>
+                  <li>Feel fully alive and present in their body</li>
+                  <li>Trust their sensations and what feels good</li>
+                  <li>Express what they want with clarity and confidence</li>
                 </ul>
                 <p>
-                  This work is grounded, curious, and deeply human. It's not about rejecting where you came from or what you've learned: it's about coming home to what was always yours.
+                  This work is grounded, curious, and deeply human. It's not about rejecting who you were, it's about reclaiming what was always yours.
                 </p>
                 <div className="pt-4 space-y-2">
                   <div className="flex items-center gap-2 text-[#2D3748]">
                     <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Trained Somatica Coach</span>
+                    <span className="font-medium">Trained Somatica® Coach</span>
                   </div>
                   <div className="flex items-center gap-2 text-[#2D3748]">
                     <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
@@ -198,47 +210,35 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Shield className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I was taught my body and desires were shameful</h3>
-              <p className="text-[#4A5568] leading-relaxed">Old religious messages still control how I feel about pleasure.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I was taught to ignore my body, desires, and needs</h3>
+              <p className="text-[#4A5568] leading-relaxed">Old messages don't have to control how I experience pleasure anymore.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Brain className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm stuck in my head during intimacy</h3>
-              <p className="text-[#4A5568] leading-relaxed">I analyze everything instead of feeling what's happening in my body.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm stuck in my head all day (even during intimacy)</h3>
+              <p className="text-[#4A5568] leading-relaxed">I'm tired of analyzing everything. I want to feel my desire, not just think about it.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Heart className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I don't know how to enjoy pleasure without guilt</h3>
-              <p className="text-[#4A5568] leading-relaxed">Even when I want something, shame shows up and shuts me down.</p>
-            </Card>
-
-            <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
-              <Compass className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I've intellectualized everything, including desire</h3>
-              <p className="text-[#4A5568] leading-relaxed">I can think about what I want, but I can't actually feel it.</p>
-            </Card>
-
-            <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
-              <Users className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I feel disconnected from my sensual self</h3>
-              <p className="text-[#4A5568] leading-relaxed">Years of conditioning left me numb to my own body's wisdom.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to enjoy pleasure without guilt</h3>
+              <p className="text-[#4A5568] leading-relaxed">I'm ready for desire to feel natural, not like something I need permission for.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Sparkles className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
               <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to stop performing and start feeling alive</h3>
-              <p className="text-[#4A5568] leading-relaxed">I'm ready to reclaim what I was taught to suppress.</p>
+              <p className="text-[#4A5568] leading-relaxed">Years of conditioning created distance. I'm ready to reconnect to my body's wisdom and reclaim what I was taught to suppress.</p>
             </Card>
           </div>
         </div>
       </section>
 
-{/* How We Work Together Section */}
+{/* Your Coaching Journey Section */}
 <section
   id="collaboration"
   className="py-20 bg-gradient-to-br from-[#F9F7F4] to-[#FDFCFB]"
@@ -246,10 +246,10 @@ export default function Home() {
   <div className="container mx-auto px-4">
     <div className="max-w-3xl mx-auto text-center mb-12">
       <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">
-        Collaboration
+        Services
       </p>
       <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">
-        How We Work Together
+        Your Coaching Journey
       </h2>
       <p className="text-[#4A5568] text-lg">
         This work is personal, not transactional. We'll find what fits you best.
@@ -277,7 +277,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Schedule Your Call
+            Book Free Discovery Call
           </a>
         </Button>        
       </Card>
@@ -311,26 +311,23 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "I went from feeling numb and checked‑out during sex to actually feeling present and excited in my body.
-                I finally know what I want and I'm not ashamed of it anymore."
+                "I didn't realize how much my upbringing had locked me down. Whole parts of myself were just switched off. Gabriele didn't judge. We gently rewired how I relate to pleasure. It's been profound."
               </p>
-              <p className="text-[#2D3748] font-medium">— A., 34</p>
+              <p className="text-[#2D3748] font-medium">— E., 36</p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "I used to panic around intimacy. Working together slowly unwound that fear. Now I can talk about my
-                desires without freezing or shutting down."
+                "Honestly, I was skeptical. I'm a scientist, very logic-driven. But being in my body with Gabriele felt like learning a completely new language. Now I'm actually present during intimacy instead of narrating it to myself."
               </p>
-              <p className="text-[#2D3748] font-medium">— M., 39</p>
+              <p className="text-[#2D3748] font-medium">— R., 41</p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "This work didn't just change my sex life, it changed how I relate to myself. I feel more grounded, more
-                honest, and much more alive."
+                "I came completely shut down: years of saying yes when I meant no, pretending to be fine when I wasn't. Working with Gabriele, something shifted. I can feel again, want things. That's way bigger than sex."
               </p>
-              <p className="text-[#2D3748] font-medium">— S., 29</p>
+              <p className="text-[#2D3748] font-medium">— M., 35</p>
             </Card>
           </div>
         </div>
@@ -360,6 +357,7 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-white text-[#C97857] hover:bg-[#F9F7F4] hover:shadow-2xl transition-all text-lg px-8 shadow-xl"
+                asChild
               >
                 <a
                   href="https://cal.com/gabriele-somatic-coach/30min"
@@ -378,41 +376,19 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#2D3748] text-[#E8DCC8] py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
               <h3 className="font-semibold text-white mb-2">Gabriele</h3>
-              <p className="text-sm">Trained Somatica@ Coach</p>
+              <p className="text-sm">Trained Somatica® Coach</p>
               <p className="text-sm">Working on site in Berlin and online with clients worldwide</p>
-            </div>
-
-            <div>
-              <h4 className="font-semibold text-white mb-3">Navigation</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#about" className="hover:text-white transition-colors">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="#collaboration" className="hover:text-white transition-colors">
-                    How We Work Together
-                  </a>
-                </li>
-                
-              </ul>
             </div>
 
             <div>
               <h4 className="font-semibold text-white mb-3">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="mailto:gabriele.somatic.coach@gmail.com" className="hover:text-white transition-colors">
-                    gabriele.somatic.coach@gmail.com
+                  <a href="mailto:hello@gabrielesomatics.com" className="hover:text-white transition-colors">
+                    hello@gabrielesomatics.com
                   </a>
                 </li>
                 <li>
