@@ -252,7 +252,7 @@ export default function Home() {
         Your Coaching Journey
       </h2>
       <p className="text-[#4A5568] text-lg">
-        This work is personal, not transactional. We'll find what fits you best.
+        This work is about you. We'll find what fits your life, your pace, your needs.
       </p>
     </div>
 
