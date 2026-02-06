@@ -379,7 +379,8 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <img src="/images/GSC_logo_word.png" alt="Gabriele Somatic Coach" className="h-16 w-auto mb-4" />
+              <img src="/images/GSC_logo_no_text.png" alt="Gabriele Somatic Coach" className="h-12 w-auto mb-3" />
+              <h3 className="font-semibold text-white mb-2">Gabriele Somatic Coach</h3>
               <p className="text-sm">Working on site in Berlin and online with clients worldwide</p>
             </div>
 
