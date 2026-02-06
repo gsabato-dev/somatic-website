@@ -377,7 +377,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#2D3748] text-[#E8DCC8] py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-8 mb-8">
             <div className="flex items-start gap-4">
               <img src="/images/GSC_logo_no_text.png" alt="Gabriele Somatic Coach" className="h-12 w-auto flex-shrink-0 rounded-full" />
               <div>
