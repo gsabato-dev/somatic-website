@@ -394,11 +394,6 @@ export default function Home() {
                     hello@gabrielesomatics.com
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Instagram
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
