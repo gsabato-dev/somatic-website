@@ -15,8 +15,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-12 md:h-16">
             {/* Logo/Brand */}
-            <a href="#" className="font-serif text-lg md:text-xl text-[#2D3748] hover:text-[#C97857] transition-colors">
-              Gabriele Somatic Coach
+            <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+              <img src="/images/GSC_logo_no_text.png" alt="Gabriele Somatic Coach" className="h-10 md:h-12 w-auto" />
+              <span className="hidden sm:inline font-serif text-lg text-[#2D3748]">Gabriele Somatic Coach</span>
             </a>
 
             {/* Desktop Navigation */}
@@ -378,7 +379,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h3 className="font-semibold text-white mb-2">Gabriele Somatic Coach</h3>
+              <img src="/images/GSC_logo_word.png" alt="Gabriele Somatic Coach" className="h-16 w-auto mb-4" />
               <p className="text-sm">Working on site in Berlin and online with clients worldwide</p>
             </div>
 
