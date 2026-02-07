@@ -143,7 +143,7 @@ export default function Home() {
             <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
           </div>
 
-          {/* Row 1: Image + First 3 Paragraphs */}
+          {/* Row 1: Image + First 5 Paragraphs */}
           <div className="max-w-6xl mx-auto mb-12">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* About Image - Large */}
@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* First 3 Paragraphs */}
+              {/* First 5 Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
                   I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
@@ -165,6 +165,12 @@ export default function Home() {
                 <p>
                   Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
                 </p>
+                <p>
+                  Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
+                </p>
+                <p>
+                  That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
+                </p>
               </div>
             </div>
           </div>
@@ -172,13 +178,6 @@ export default function Home() {
           {/* Row 2: Remaining Content Full Width */}
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
-              <p>
-                Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
-              </p>
-              <p>
-                That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
-              </p>
-
               <p className="pt-4">Now, based in Berlin, I work with women who want to:</p>
               <ul className="space-y-2 ml-5 list-disc">
                 <li>Enjoying pleasure and desire without guilt or shame</li>
