@@ -168,6 +168,10 @@ export default function Home() {
                 <p>
                   Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
                 </p>
+                <p>
+                That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
+              </p>
+
               </div>
             </div>
           </div>
@@ -175,11 +179,8 @@ export default function Home() {
           {/* Row 2: Paragraph 5 + Remaining Content Full Width */}
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
-              <p>
-                That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
-              </p>
-
-              <p className="pt-4">Now, based in Berlin, I work with women who want to:</p>
+              
+              <p className="pt-4">Now, based in Berlin, I help women who want to:</p>
               <ul className="space-y-2 ml-5 list-disc">
                 <li>Enjoying pleasure and desire without guilt or shame</li>
                 <li>Feeling fully alive and present in your body</li>
@@ -188,7 +189,7 @@ export default function Home() {
               </ul>
 
               <p className="pt-4">
-                This work is grounded, curious, and deeply human. It's not about rejecting who you were—it's about reclaiming what was always there.
+                This work is grounded, curious, and deeply human. It's not about rejecting who you were, it's about reclaiming what was always there.
               </p>
 
               <div className="pt-6 space-y-2">
@@ -366,7 +367,7 @@ export default function Home() {
             </h2>
             <p className="text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
               One free discovery call can change the way you relate to your body, desire, and intimacy. No obligation,
-              no judgment—just a friendly conversation.
+              no judgment, just a friendly conversation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
