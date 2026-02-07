@@ -104,7 +104,7 @@ export default function Home() {
                 Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                I'm Gabriele, a trained somatic coach. I work with women who learned to be 'good' in religious spaces, at work, or in relationships, and are ready to reconnect to their bodies, desire, and pleasure. I've walked this path. I'll guide you through it.
+                I'm Gabriele, a Trained Somatica® Coach. I help women who were taught to be 'good' in religious spaces, at work, or in relationships, to reconnect to their bodies, desire, and pleasure. I've walked this path. I'll guide you through it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
@@ -152,16 +152,16 @@ export default function Home() {
               <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
-                  I'm <strong>Gabriele</strong>, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-[#C97857] hover:underline transition-colors">Somatica®</a> Coach working with women who are ready to reclaim their sensual aliveness.
+                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
                 </p>
                 <p>
-                  I grew up in religious spaces where pleasure wasn't safe to explore. Later, I spent years in academia: brilliant work that kept me entirely in my head. I was good at thinking, analyzing, performing, but disconnected from my body and what I actually wanted.
+                  I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
                 </p>
                 <p>
-                  I was teaching and dancing tango during those years, learning how to connect with others through movement. But even that wasn't enough, I realized I needed deeper tools to actually transform how I related to my body and desire and to support others.
+                  Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
                 </p>
                 <p>
-                  Moving to Berlin in my early 30s opened something. I started exploring, but kept falling into the same old patterns: proving myself, taking care of others, ignoring my own needs. After a burnout, I finally stopped and asked what I actually needed to change.
+                  Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
                 </p>
                 <p>
                   That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
@@ -266,7 +266,7 @@ export default function Home() {
         <p className="text-[#4A5568] leading-relaxed mb-6">
           We'll explore what's happening for you, what you're longing for, and
           whether we're a good fit. You can ask me anything about the work. No
-          pressure, just an honest conversation.
+          pressure, just a friendly conversation.
         </p>
         
         <Button
@@ -352,7 +352,7 @@ export default function Home() {
             </h2>
             <p className="text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
               One free discovery call can change the way you relate to your body, desire, and intimacy. No obligation,
-              no judgment: just an honest conversation.
+              no judgment—just a friendly conversation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
