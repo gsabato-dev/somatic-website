@@ -157,7 +157,7 @@ export default function Home() {
               {/* First 4 Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
-                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
+                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach helping women who want to reconnect to their bodies, desire, and pleasure.
                 </p>
                 <p>
                   I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
