@@ -137,7 +137,13 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          {/* Row 1: Image + First 2 Paragraphs */}
+          {/* Title Section */}
+          <div className="max-w-6xl mx-auto mb-8">
+            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">About</p>
+            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
+          </div>
+
+          {/* Row 1: Image + First 3 Paragraphs */}
           <div className="max-w-6xl mx-auto mb-12">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* About Image - Large */}
@@ -148,18 +154,17 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Title + First 2 Paragraphs */}
-              <div>
-                <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">About</p>
-                <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
-                <div className="space-y-4 text-[#4A5568] leading-relaxed">
-                  <p>
-                    I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
-                  </p>
-                  <p>
-                    I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
-                  </p>
-                </div>
+              {/* First 3 Paragraphs */}
+              <div className="space-y-4 text-[#4A5568] leading-relaxed">
+                <p>
+                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
+                </p>
+                <p>
+                  I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
+                </p>
+                <p>
+                  Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
+                </p>
               </div>
             </div>
           </div>
@@ -167,9 +172,6 @@ export default function Home() {
           {/* Row 2: Remaining Content Full Width */}
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
-              <p>
-                Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
-              </p>
               <p>
                 Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
               </p>
