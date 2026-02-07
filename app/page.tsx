@@ -137,19 +137,24 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* About Image - Seated */}
-            <div className="relative order-2 lg:order-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#C97857]/10 to-[#7A9B7A]/10 rounded-2xl blur-3xl transform scale-95"></div>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
-                <img src="/images/about.png" alt="Trained Somatica® Coach" className="w-full h-auto" />
-              </div>
-            </div>
+          {/* Section Label and Title */}
+          <div className="max-w-6xl mx-auto mb-8">
+            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">About</p>
+            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
+          </div>
 
-            {/* About Text */}
-            <div className="order-1 lg:order-2">
-              <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">About</p>
-              <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
+          {/* Row 1: Image + First 2 Paragraphs Side by Side */}
+          <div className="max-w-6xl mx-auto mb-12">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
+              {/* About Image */}
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#C97857]/10 to-[#7A9B7A]/10 rounded-2xl blur-3xl transform scale-95"></div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
+                  <img src="/images/about.png" alt="Trained Somatica® Coach" className="w-full h-auto" />
+                </div>
+              </div>
+
+              {/* First 2 Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
                   I'm <strong>Gabriele</strong>, a Trained Somatica® Coach working with women who want to reconnect to their bodies, desire, and pleasure.
@@ -157,42 +162,51 @@ export default function Home() {
                 <p>
                   I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
                 </p>
-                <p>
-                  Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
-                </p>
-                <p>
-                  Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
-                </p>
-                <p>
-                  That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
-                </p>
-                <p>Based in Berlin, I work with women who want to:</p>
-                <ul className="space-y-2 ml-5 list-disc">
-                  <li>Enjoy pleasure and desire without guilt or shame</li>
-                  <li>Feel fully alive and present in their body</li>
-                  <li>Trust their sensations and what feels good</li>
-                  <li>Express what they want with clarity and confidence</li>
-                </ul>
-                <p>
-                  This work is grounded, curious, and deeply human. It's not about rejecting who you were, it's about reclaiming what was always yours.
-                </p>
-                <div className="pt-4 space-y-2">
-                  <div className="flex items-center gap-2 text-[#2D3748]">
-                    <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Trained Somatica® Coach</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-[#2D3748]">
-                    <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Tango dancer & teacher</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-[#2D3748]">
-                    <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Trauma‑informed, consent‑based approach</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-[#2D3748]">
-                    <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                    <span className="font-medium">Working onsite in Berlin and online with clients worldwide</span>
-                  </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Row 2: Remaining Content Full Width */}
+          <div className="max-w-6xl mx-auto">
+            <div className="space-y-4 text-[#4A5568] leading-relaxed">
+              <p>
+                Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
+              </p>
+              <p>
+                Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
+              </p>
+              <p>
+                That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
+              </p>
+
+              <p className="pt-4">Now, based in Berlin, I work with women who want to:</p>
+              <ul className="space-y-2 ml-5 list-disc">
+                <li>Enjoying pleasure and desire without guilt or shame</li>
+                <li>Feeling fully alive and present in your body</li>
+                <li>Trusting your sensations and what feels good to you</li>
+                <li>Expressing what you want with clarity and confidence</li>
+              </ul>
+
+              <p className="pt-4">
+                This work is grounded, curious, and deeply human. It's not about rejecting who you were—it's about reclaiming what was always there.
+              </p>
+
+              <div className="pt-6 space-y-2">
+                <div className="flex items-center gap-2 text-[#2D3748]">
+                  <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                  <span className="font-medium">Trained Somatica® Coach</span>
+                </div>
+                <div className="flex items-center gap-2 text-[#2D3748]">
+                  <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                  <span className="font-medium">Tango dancer & teacher</span>
+                </div>
+                <div className="flex items-center gap-2 text-[#2D3748]">
+                  <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                  <span className="font-medium">Trauma‑informed, consent‑based approach</span>
+                </div>
+                <div className="flex items-center gap-2 text-[#2D3748]">
+                  <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                  <span className="font-medium">Working onsite in Berlin and online with clients worldwide</span>
                 </div>
               </div>
             </div>
