@@ -104,7 +104,7 @@ export default function Home() {
                 Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. I help women who were taught to be 'good' in religious spaces, at work, or in relationships, to reconnect to their bodies, desire, and pleasure. I've walked this path. I'll guide you through it.
+                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. I help women who were taught to be 'good' in religious spaces, at work, or in relationships, to reconnect to their bodies, desire, and pleasure. I know what it takes to make this shift, and I'll guide you through it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
@@ -143,8 +143,8 @@ export default function Home() {
             <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-6">From the Mind Back to the Body</h2>
           </div>
 
-          {/* Row 1: Image + First 4 Paragraphs */}
-          <div className="max-w-6xl mx-auto mb-12">
+          {/* Row 1: Image + First 5 Paragraphs */}
+          <div className="max-w-6xl mx-auto mb-6">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* About Image - Large */}
               <div className="relative">
@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* First 4 Paragraphs */}
+              {/* First 5 Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
                   I'm <strong>Gabriele</strong>, a Trained Somatica® Coach helping women who want to reconnect to their bodies, desire, and pleasure.
@@ -166,14 +166,24 @@ export default function Home() {
                   Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
                 </p>
                 <p>
-                  Something opened in me when I moved to Berlin in my early 30s. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
+                  Berlin was the first place I felt permission to be curious about who I actually was. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
                 </p>
                 <p>
-                That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe. Now I guide women through that same journey.
-              </p>
-
+                  That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe.
+                </p>
               </div>
             </div>
+          </div>
+
+          {/* Tango paragraph — full width */}
+          <div className="max-w-6xl mx-auto mb-12">
+            <p className="text-[#4A5568] leading-relaxed">
+              For over 20 years as a{" "}
+              <a href="https://gabrieletango.com" className="text-[#C97857] underline hover:text-[#B8633E] transition-colors">
+                tango dancer and teacher
+              </a>
+              , I worked closely with women navigating their own relationship to movement, sensation, and desire. I saw, again and again, how deeply conditioning; not lack of ability, was holding them back. That's what brought me to Somatica: tools that could reach those blocks where they actually live. Now I guide women through that same journey.
+            </p>
           </div>
 
           {/* Row 2: Paragraph 5 + Remaining Content Full Width */}
@@ -182,10 +192,10 @@ export default function Home() {
               
               <p className="pt-4">Now, based in Berlin, I help women who want to:</p>
               <ul className="space-y-2 ml-5 list-disc">
-                <li>Enjoying pleasure and desire without guilt or shame</li>
-                <li>Feeling fully alive and present in your body</li>
-                <li>Trusting your sensations and what feels good to you</li>
-                <li>Expressing what you want with clarity and confidence</li>
+                <li>Enjoy pleasure and desire without guilt or shame</li>
+                <li>Feel fully alive and present in your body</li>
+                <li>Trust your sensations and what feels good to you</li>
+                <li>Express what you want with clarity and confidence</li>
               </ul>
 
               <p className="pt-4">
@@ -315,36 +325,44 @@ export default function Home() {
 </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-b from-white to-[#F9F7F4]/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">Real Transformations</h2>
-            <p className="text-[#4A5568] text-sm">
-              Names and details changed for privacy, stories shared with consent.
-            </p>
-          </div>
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-6">
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
-              <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "I didn't realize how much my upbringing had locked me down. Whole parts of myself were just switched off. Gabriele didn't judge. We gently rewired how I relate to pleasure. It's been profound."
-              </p>
-              <p className="text-[#2D3748] font-medium">— E., 36</p>
-            </Card>
+          <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] text-center mb-4">
+            Real Transformations
+          </h2>
+          <p className="text-center text-[#4A5568] text-sm mb-10">
+            Stories shared with consent. Names and identifying details have been changed to protect privacy.
+          </p>
 
-            <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
-              <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "Honestly, I was skeptical. I'm a scientist, very logic-driven. But being in my body with Gabriele felt like learning a completely new language. Now I'm actually present during intimacy instead of narrating it to myself."
-              </p>
-              <p className="text-[#2D3748] font-medium">— R., 41</p>
-            </Card>
+          <div className="flex flex-col md:flex-row gap-8 items-start">
 
-            <Card className="p-8 bg-gradient-to-br from-[#F9F7F4] to-white border-l-4 border-[#C97857] shadow-lg hover:shadow-xl transition-shadow">
-              <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                "I came completely shut down: years of saying yes when I meant no, pretending to be fine when I wasn't. Working with Gabriele, something shifted. I can feel again, want things. That's way bigger than sex."
+            {/* VIDEO PLACEHOLDER: Replace this block with the actual video element when the file is ready */}
+            {/* The video is vertical format, portrait orientation (9:16) */}
+            <div className="flex-shrink-0 w-full md:w-[320px] min-h-[560px] bg-[#F0EBE3] rounded-xl border border-[#E8DCC8] flex items-center justify-center">
+              <p className="text-sm text-gray-400 italic text-center px-8">
+                [VIDEO TESTIMONIAL PLACEHOLDER: vertical format. Upload file when ready.]
               </p>
-              <p className="text-[#2D3748] font-medium">— M., 35</p>
-            </Card>
+            </div>
+
+            {/* Two text testimonial cards */}
+            <div className="flex flex-col gap-6 flex-1">
+
+              <div className="bg-[#F9F7F4] border-l-4 border-[#C97857] p-8 rounded-r-xl shadow-md">
+                <p className="text-[#4A5568] italic leading-relaxed mb-4">
+                  "Honestly, I was skeptical. I am a scientist, very logic-driven. But being in my body with Gabriele felt like learning a completely new language. Now I am actually present during intimacy instead of narrating it to myself."
+                </p>
+                <p className="text-[#2D3748] font-semibold">R., 41</p>
+              </div>
+
+              <div className="bg-[#F9F7F4] border-l-4 border-[#C97857] p-8 rounded-r-xl shadow-md">
+                <p className="text-[#4A5568] italic leading-relaxed mb-4">
+                  "I came completely shut down: years of saying yes when I meant no, pretending to be fine when I was not. Working with Gabriele, something shifted. I can feel again, want things. That is way bigger than sex."
+                </p>
+                <p className="text-[#2D3748] font-semibold">M., 35</p>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
