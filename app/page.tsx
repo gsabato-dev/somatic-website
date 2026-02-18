@@ -33,7 +33,7 @@ export default function Home() {
                 asChild
               >
                 <a
-                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  href="https://cal.com/gabriele-somatic-coach/20min"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -80,7 +80,7 @@ export default function Home() {
                 asChild
               >
                 <a
-                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  href="https://cal.com/gabriele-somatic-coach/20min"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}
@@ -113,7 +113,7 @@ export default function Home() {
                   asChild
                 >
                   <a
-                    href="https://cal.com/gabriele-somatic-coach/30min"
+                    href="https://cal.com/gabriele-somatic-coach/20min"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* First 5 Paragraphs */}
+              {/* Bio Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
                 <p>
                   I'm <strong>Gabriele</strong>, a Trained Somatica® Coach helping women who want to reconnect to their bodies, desire, and pleasure.
@@ -163,43 +163,35 @@ export default function Home() {
                   I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
                 </p>
                 <p>
-                  Although I learned to connect with others through movement as a tango teacher and dancer, I realized I needed deeper tools to transform how I related to my body.
+                  Tango changed that. As a{" "}
+                  <a href="https://gabrieletango.com" className="text-[#C97857] hover:text-[#B8633E] transition-colors">
+                    dancer and teacher for over 20 years
+                  </a>
+                  , I learned to follow what the body communicates before the mind catches up. I found connection, presence, and a language I hadn't known before. Teaching women to dance, though, I kept witnessing something the music and movement couldn't reach: deep blocks around sensation, desire, and self-permission that had nothing to do with rhythm or steps.
                 </p>
                 <p>
-                  Berlin was the first place I felt permission to be curious about who I actually was. I started exploring more, but still I kept falling into the same patterns: trying to prove myself worthy, taking care of others, ignoring my own needs. After burning out in a bad relationship, I finally paused and asked what I actually needed to change.
+                  Berlin found me almost by chance, and it became new ground. It was the first place I felt permission to be curious about who I actually was. Parts of me that had been waiting finally got to breathe. And yet I kept falling into the same patterns: taking care of others before myself, saying yes when I meant no, shrinking my needs to keep the peace. It took burning out completely, in relationship and at work, to finally stop and ask what actually needed to change.
                 </p>
                 <p>
-                  That's when I found Somatica®. The training transformed me: not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself the permission to experience sides of me that always wanted to breathe.
+                  That's when I found Somatica: tools that could reach those blocks where they actually live, in my students and in myself. The training transformed me, not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself permission to want what I actually wanted.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Tango paragraph — full width */}
-          <div className="max-w-6xl mx-auto mb-12">
-            <p className="text-[#4A5568] leading-relaxed">
-              For over 20 years as a{" "}
-              <a href="https://gabrieletango.com" className="text-[#C97857] underline hover:text-[#B8633E] transition-colors">
-                tango dancer and teacher
-              </a>
-              , I worked closely with women navigating their own relationship to movement, sensation, and desire. I saw, again and again, how deeply conditioning; not lack of ability, was holding them back. That's what brought me to Somatica: tools that could reach those blocks where they actually live. Now I guide women through that same journey.
-            </p>
-          </div>
-
-          {/* Row 2: Paragraph 5 + Remaining Content Full Width */}
+          {/* Full-width closing section */}
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
-              
-              <p className="pt-4">Now, based in Berlin, I help women who want to:</p>
+              <p className="pt-4">Now I guide women through that same journey. Based in Berlin, I help women who are ready to:</p>
               <ul className="space-y-2 ml-5 list-disc">
                 <li>Enjoy pleasure and desire without guilt or shame</li>
-                <li>Feel fully alive and present in your body</li>
-                <li>Trust your sensations and what feels good to you</li>
-                <li>Express what you want with clarity and confidence</li>
+                <li>Feel fully alive and present in their body</li>
+                <li>Trust their sensations and what feels good to them</li>
+                <li>Express what they want with clarity and confidence</li>
               </ul>
 
               <p className="pt-4">
-                This work is grounded, curious, and deeply human. It's not about rejecting who you were, it's about reclaiming what was always there.
+                This work is grounded, curious, and deeply human. It's not about rejecting who you were; it's about reclaiming what was always there.
               </p>
 
               <div className="pt-6 space-y-2">
@@ -209,15 +201,15 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                  <span className="font-medium">Tango dancer & teacher</span>
+                  <span className="font-medium">Tango dancer & teacher for 20+ years</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                  <span className="font-medium">Trauma‑informed, consent‑based approach</span>
+                  <span className="font-medium">Trauma-informed, consent-based approach</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                  <span className="font-medium">Working onsite in Berlin and online with clients worldwide</span>
+                  <span className="font-medium">Working onsite in Berlin and online worldwide</span>
                 </div>
               </div>
             </div>
@@ -286,7 +278,7 @@ export default function Home() {
       {/* Card 1 */}
       <Card className="p-10 bg-gradient-to-br from-white via-white to-[#F9F7F4]/50 border-[#E8DCC8] hover:shadow-2xl transition-shadow shadow-lg">
         <h3 className="text-2xl font-semibold text-[#2D3748] mb-4">
-          Free 30-Minute Discovery Call
+          Free 20-Minute Discovery Call
         </h3>
         <p className="text-[#4A5568] leading-relaxed mb-6">
           We'll explore what's happening for you, what you're longing for, and
@@ -299,7 +291,7 @@ export default function Home() {
           asChild
         >
           <a
-            href="https://cal.com/gabriele-somatic-coach/30min"
+            href="https://cal.com/gabriele-somatic-coach/20min"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -394,7 +386,7 @@ export default function Home() {
                 asChild
               >
                 <a
-                  href="https://cal.com/gabriele-somatic-coach/30min"
+                  href="https://cal.com/gabriele-somatic-coach/20min"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
