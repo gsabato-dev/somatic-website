@@ -104,7 +104,7 @@ export default function Home() {
                 Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. With nearly two decades as a tango dancer and teacher and a PhD in Physics, I help people who live in their heads reconnect to their bodies, desire, and pleasure. I know what it takes to make this shift, and I'll guide you through it.
+                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. With nearly two decades of experience as a tango dancer and teacher and a PhD in Physics, I help people who live in their heads reconnect to their bodies, desire, and pleasure. I know what it takes to make this shift, and I'll guide you through it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
