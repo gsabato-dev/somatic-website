@@ -104,7 +104,7 @@ export default function Home() {
                 Pleasure Is Your Birthright. Reclaim It.
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90 drop-shadow-md">
-                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. I help driven, high-achieving people who were taught to be 'good' in religious spaces, at work, or in relationships, to reconnect to their bodies, desire, and pleasure. I know what it takes to make this shift, and I'll guide you through it.
+                I'm Gabriele, a Trained <a href="https://www.somaticainstitute.com/" target="_blank" rel="noopener noreferrer" className="text-white  hover:opacity-80 transition-opacity font-medium">Somatica®</a> Coach. With nearly two decades as a tango dancer and teacher and a PhD in Physics, I help people who live in their heads reconnect to their bodies, desire, and pleasure. I know what it takes to make this shift, and I'll guide you through it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button
@@ -156,24 +156,27 @@ export default function Home() {
 
               {/* Bio Paragraphs */}
               <div className="space-y-4 text-[#4A5568] leading-relaxed">
-                <p>
-                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach helping high achievers and busy professionals who want to reconnect to their bodies, desire, and pleasure.
+                <p className="text-lg text-[#2D3748] font-medium">
+                  My mind made me successful at almost everything, except experiencing my own body.
                 </p>
                 <p>
-                  I grew up in religious spaces where it wasn't safe to explore pleasure. Later, I spent years in academia, which kept me entirely in my head. I was disconnected from my body and what I actually wanted.
+                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach, and I work with people who live in their heads, helping them reconnect to their bodies, desire, and pleasure.
                 </p>
                 <p>
-                  Tango changed that. As a{" "}
+                  I learned that split early. I grew up in religious spaces where pleasure wasn't safe to explore, then earned a PhD in Physics: years that sharpened my thinking while leaving my body behind.
+                </p>
+                <p>
+                  Tango was the first thing that pulled me back. As a{" "}
                   <a href="https://gabrieletango.com" className="text-[#C97857] hover:text-[#B8633E] transition-colors">
-                    dancer and teacher for over 20 years
+tango dancer and teacher for nearly two decades
                   </a>
-                  , I learned to follow what the body communicates before the mind catches up. I found connection, presence, and a language I hadn't known before. Teaching people to dance, though, I kept witnessing something the music and movement couldn't reach: deep blocks around sensation, desire, and self-permission that had nothing to do with rhythm or steps.
+                  , I learned a new, more intuitive language of connection, presence, and movement. It was while teaching tango that I kept seeing the same thing surfacing in my students: deep blocks around sensation and a lack of body awareness that had nothing to do with rhythm or steps.
                 </p>
                 <p>
-                  Berlin found me almost by chance, and it became new ground. It was the first place I felt permission to be curious about who I actually was. Parts of me that had been waiting finally got to breathe. And yet I kept falling into the same patterns: taking care of others before myself, saying yes when I meant no, shrinking my needs to keep the peace. It took burning out completely, in relationship and at work, to finally stop and ask what actually needed to change.
+                  Berlin found me almost by chance, and it became my home, the first place I let myself experiment with who I really was. Even so, the old patterns kept emerging: putting others first, saying yes when I meant no, shrinking myself to keep the peace, until I burned out completely in love and at work.
                 </p>
                 <p>
-                  That's when I found Somatica: tools that could reach those blocks where they actually live, in my students and in myself. The training transformed me, not just as a coach, but as a person. I learned to trust my body, stop performing, and give myself permission to want what I actually wanted.
+                  That's when I found Somatica®. The work reached what nothing else had and transformed me, not just as a coach but as a person.
                 </p>
               </div>
             </div>
@@ -182,7 +185,8 @@ export default function Home() {
           {/* Full-width closing section */}
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
-              <p className="pt-4">Now I guide people through that same journey. Based in Berlin, I help high achievers who are ready to:</p>
+              <p className="pt-4">Now I guide others through that same journey home: out of the head, back into the body, and into a fuller, more authentic kind of pleasure.</p>
+              <p>Based in Berlin, I help people who are ready to:</p>
               <ul className="space-y-2 ml-5 list-disc">
                 <li>Enjoy pleasure and desire without guilt or shame</li>
                 <li>Feel fully alive and present in their body</li>
@@ -201,7 +205,11 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                  <span className="font-medium">Tango dancer & teacher for 20+ years</span>
+                  <span className="font-medium">Tango dancer & teacher for nearly 20 years</span>
+                </div>
+                <div className="flex items-center gap-2 text-[#2D3748]">
+                  <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
+                  <span className="font-medium">PhD in Physics</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
@@ -237,8 +245,8 @@ export default function Home() {
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Brain className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm stuck in my head all day (even during intimacy)</h3>
-              <p className="text-[#4A5568] leading-relaxed">I'm tired of analyzing everything. I want to feel my desire, not just think about it.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">My mind is my superpower, everywhere except here</h3>
+              <p className="text-[#4A5568] leading-relaxed">The analyzing and control that win at work shut me down in intimacy. I want to feel my desire, not narrate it.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
@@ -324,13 +332,13 @@ export default function Home() {
             Real Transformations
           </h2>
           <p className="text-center text-[#4A5568] text-sm mb-10">
-            Stories shared with consent. Names and identifying details have been changed to protect privacy.
+            Shared with consent. Text testimonials are anonymized; the video is shared with explicit permission.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-8 items-start">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
 
             {/* Video testimonial - vertical/portrait orientation */}
-            <div className="flex-shrink-0 w-full md:w-[320px]">
+            <div className="flex-shrink-0 w-full md:w-[360px]">
               <video
                 controls
                 playsInline
@@ -352,7 +360,7 @@ export default function Home() {
                   "Working with Gabriele was the missing piece in my healing journey. After months of psychotherapy focused mainly on thoughts, I was still struggling with burnout and a persistent tightness in my chest that wouldn't go away.
                 </p>
                 <p className="text-[#4A5568] italic leading-relaxed mb-4">
-                  Through somatic coaching and gentle work with the body, something finally shifted. After just five sessions, the long-lasting tension and anxiety subsided, and I felt truly integrated — my thoughts, emotions, and needs finally aligned.
+                  Through somatic coaching and gentle work with the body, something finally shifted. After just five sessions, the long-lasting tension and anxiety subsided, and I felt truly integrated: my thoughts, emotions, and needs finally aligned.
                 </p>
                 <p className="text-[#4A5568] italic leading-relaxed mb-4">
                   I'm deeply grateful for Gabriele's support. It helped me not only regain calm, but also find the courage to live and speak more authentically."
