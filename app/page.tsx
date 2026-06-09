@@ -2,9 +2,14 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight, CheckCircle2, Heart, Brain, Shield, Compass, Sparkles, Users, Menu, X } from "lucide-react"
 import { useState } from "react"
+import { faqs } from "@/lib/faq"
+import heroImage from "@/public/images/woman_in_the_grass.jpg"
+import aboutImage from "@/public/images/about.jpg"
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -27,6 +32,9 @@ export default function Home() {
               </a>
               <a href="#collaboration" className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium">
                 Your Coaching Journey
+              </a>
+              <a href="#faq" className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium">
+                FAQ
               </a>
               <Button
                 className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md"
@@ -74,6 +82,13 @@ export default function Home() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Your Coaching Journey
+              </a>
+              <a
+                href="#faq"
+                className="text-[#4A5568] hover:text-[#C97857] transition-colors font-medium py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FAQ
               </a>
               <Button
                 className="bg-gradient-to-r from-[#C97857] to-[#B8633E] hover:shadow-lg text-white transition-all shadow-md w-full"
@@ -127,7 +142,14 @@ export default function Home() {
             <div className="relative lg:col-span-7">
               <div className="absolute inset-0 bg-gradient-to-br from-[#7A9B7A]/20 to-transparent rounded-2xl blur-2xl transform scale-105"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
-                <img src="/images/woman_in_the_grass.jpg" alt="Coach in welcoming pose" className="w-full h-auto" />
+                <Image
+                  src={heroImage}
+                  alt="Gabriele, somatic and intimacy coach, sitting on the grass in a relaxed, welcoming pose"
+                  priority
+                  placeholder="blur"
+                  sizes="(min-width: 1024px) 58vw, 100vw"
+                  className="w-full h-auto"
+                />
               </div>
             </div>
           </div>
@@ -150,7 +172,13 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#C97857]/10 to-[#7A9B7A]/10 rounded-2xl blur-3xl transform scale-95"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
-                  <img src="/images/about.png" alt="Trained Somatica® Coach" className="w-full h-auto" />
+                  <Image
+                    src={aboutImage}
+                    alt="Gabriele, Trained Somatica® Coach based in Berlin"
+                    placeholder="blur"
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    className="w-full h-auto"
+                  />
                 </div>
               </div>
 
@@ -160,10 +188,10 @@ export default function Home() {
                   My mind made me successful at almost everything, except experiencing my own body.
                 </p>
                 <p>
-                  I'm <strong>Gabriele</strong>, a Trained Somatica® Coach, and I work with people who live in their heads, helping them reconnect to their bodies, desire, and pleasure.
+                  I'm <strong>Gabriele</strong>. I know what it's like to push through with your mind while your body goes numb, because I did it for years.
                 </p>
                 <p>
-                  I learned that split early. I grew up in religious spaces where pleasure wasn't safe to explore, then earned a PhD in Physics: years that sharpened my thinking while leaving my body behind.
+                  I grew up in religious spaces where pleasure wasn't safe to explore, then earned a PhD in Physics: years that sharpened my thinking while leaving my body behind.
                 </p>
                 <p>
                   Tango was the first thing that pulled me back. As a{" "}
@@ -173,10 +201,10 @@ tango dancer and teacher for nearly two decades
                   , I learned a new, more intuitive language of connection, presence, and movement. It was while teaching tango that I kept seeing the same thing surfacing in my students: deep blocks around sensation and a lack of body awareness that had nothing to do with rhythm or steps.
                 </p>
                 <p>
-                  Berlin found me almost by chance, and it became my home, the first place I let myself experiment with who I really was. Even so, the old patterns kept emerging: putting others first, saying yes when I meant no, shrinking myself to keep the peace, until I burned out completely in love and at work.
+                  My understanding expanded when I moved to Berlin, the first place where I let myself experiment with who I really was. Even so, the old patterns kept emerging: putting others first, saying yes when I meant no, shrinking myself to keep the peace, until I burned out completely in love and at work.
                 </p>
                 <p>
-                  That's when I found Somatica®. The work reached what nothing else had and transformed me, not just as a coach but as a person.
+                  That's when I found Somatica®. The training transformed me and gave me the language to help others.
                 </p>
               </div>
             </div>
@@ -186,7 +214,7 @@ tango dancer and teacher for nearly two decades
           <div className="max-w-6xl mx-auto">
             <div className="space-y-4 text-[#4A5568] leading-relaxed">
               <p className="pt-4">Now I guide others through that same journey home: out of the head, back into the body, and into a fuller, more authentic kind of pleasure.</p>
-              <p>Based in Berlin, I help people who are ready to:</p>
+              <p>I help people who are ready to:</p>
               <ul className="space-y-2 ml-5 list-disc">
                 <li>Enjoy pleasure and desire without guilt or shame</li>
                 <li>Feel fully alive and present in their body</li>
@@ -195,13 +223,13 @@ tango dancer and teacher for nearly two decades
               </ul>
 
               <p className="pt-4">
-                This work is grounded, curious, and deeply human. It's not about rejecting who you were; it's about reclaiming what was always there.
+                This work is grounded, open, and deeply human. It's not about rejecting who you were; it's about reclaiming what was always there.
               </p>
 
               <div className="pt-6 space-y-2">
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
-                  <span className="font-medium">Trained Somatica® Coach</span>
+                  <span className="font-medium">Somatic Coach</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#2D3748]">
                   <CheckCircle2 className="w-5 h-5 text-[#7A9B7A]" />
@@ -229,36 +257,36 @@ tango dancer and teacher for nearly two decades
       <section className="py-20 bg-gradient-to-br from-[#F9F7F4] to-[#FDFCFB]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">Is this you?</p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">I Hear This Every Day</h2>
+            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">Sound familiar?</p>
+            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">You live in your head,<br />while your body awaits</h2>
             <p className="text-[#4A5568] text-lg">
-              Most of my clients arrive with similar stories. You're not broken, and you're not alone.
+              Most of my clients come to me with the same struggle.<br />You're not broken, and you're not alone.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Shield className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I was taught to ignore my body, desires, and needs</h3>
-              <p className="text-[#4A5568] leading-relaxed">Old messages don't have to control how I experience pleasure anymore.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I was taught to ignore my body</h3>
+              <p className="text-[#4A5568] leading-relaxed">I want to learn how to listen to it again.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Brain className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">My mind is my superpower, everywhere except here</h3>
-              <p className="text-[#4A5568] leading-relaxed">The analyzing and control that win at work shut me down in intimacy. I want to feel my desire, not narrate it.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">My mind is sharp everywhere except here</h3>
+              <p className="text-[#4A5568] leading-relaxed">I want to feel my desire, not analyze it.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Heart className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to enjoy pleasure without guilt</h3>
-              <p className="text-[#4A5568] leading-relaxed">I'm ready for desire to feel natural, not like something I need permission for.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">Pleasure still feels like something I need permission for</h3>
+              <p className="text-[#4A5568] leading-relaxed">I want it to feel natural, not earned.</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-white to-white/80 border-[#E8DCC8] hover:border-[#C97857] hover:shadow-xl transition-all shadow-md">
               <Sparkles className="w-8 h-8 text-[#C97857] mb-4 drop-shadow-sm" />
-              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I want to stop performing and start feeling alive</h3>
-              <p className="text-[#4A5568] leading-relaxed">Years of conditioning created distance. I'm ready to reconnect to my body's wisdom and reclaim what I was taught to suppress.</p>
+              <h3 className="font-semibold text-[#2D3748] mb-2 text-lg">I'm performing when I want to be present</h3>
+              <p className="text-[#4A5568] leading-relaxed">I'm ready to stop managing and start feeling.</p>
             </Card>
           </div>
         </div>
@@ -381,6 +409,40 @@ tango dancer and teacher for nearly two decades
               </div>
 
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="py-20 bg-gradient-to-br from-[#F9F7F4] to-[#FDFCFB]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="text-sm uppercase tracking-wider text-[#C97857] font-medium mb-3">FAQ</p>
+            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-[#2D3748] mb-4">
+              Questions People Often Ask
+            </h2>
+            <p className="text-[#4A5568] text-lg">
+              A few honest answers about somatic coaching and what working together looks like.
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem
+                  key={index}
+                  value={`item-${index}`}
+                  className="border-b border-[#E8DCC8]"
+                >
+                  <AccordionTrigger className="text-left font-serif text-lg text-[#2D3748] hover:text-[#C97857] hover:no-underline">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-[#4A5568] leading-relaxed text-base">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
